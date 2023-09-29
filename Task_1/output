@@ -1,0 +1,51 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1053278: <./bin 0.1 0.2 100000000> in cluster <MSUCluster> Done
+
+Job <./bin 0.1 0.2 100000000> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi20-28> in cluster <MSUCluster> at Wed Sep 27 20:20:10 2023
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi20-28> in cluster <MSUCluster> at Wed Sep 27 20:20:10 2023
+</home_edu/edu-cmc-sqi20/edu-cmc-sqi20-28> was used as the home directory.
+</home_edu/edu-cmc-sqi20/edu-cmc-sqi20-28/CUDA/Task_1> was used as the working directory.
+Started at Wed Sep 27 20:20:10 2023
+Terminated at Wed Sep 27 20:20:19 2023
+Results reported at Wed Sep 27 20:20:19 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./bin 0.1 0.2 100000000
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.91 sec.
+    Max Memory :                                 1513 MB
+    Average Memory :                             1135.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   11 sec.
+    Turnaround time :                            9 sec.
+
+The output (if any) follows:
+
+Alpha: 0.1
+Beta: 0.2
+Vector size: 100000000
+
+Status: Correct
+Elapsed time (Sequent CPU) = 499.187ms
+Elapsed time (Parallel GPU pure) = 4.33578ms
+Elapsed time (Parallel GPU) = 299.088ms
+
+Pure acceleration: 115.132
+Acceleration: 1.66903
+
+
+PS:
+
+Read file <error> for stderr output of this job.

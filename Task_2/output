@@ -1,0 +1,48 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1054232: <./filtering 15> in cluster <MSUCluster> Done
+
+Job <./filtering 15> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi20-28> in cluster <MSUCluster> at Fri Sep 29 11:46:17 2023
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi20-28> in cluster <MSUCluster> at Fri Sep 29 11:46:18 2023
+</home_edu/edu-cmc-sqi20/edu-cmc-sqi20-28> was used as the home directory.
+</home_edu/edu-cmc-sqi20/edu-cmc-sqi20-28/CUDA/Task_2> was used as the working directory.
+Started at Fri Sep 29 11:46:18 2023
+Terminated at Fri Sep 29 11:51:45 2023
+Results reported at Fri Sep 29 11:51:45 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filtering 15
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   326.66 sec.
+    Max Memory :                                 211 MB
+    Average Memory :                             206.71 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                6
+    Run time :                                   328 sec.
+    Turnaround time :                            328 sec.
+
+The output (if any) follows:
+
+Status: [32mCorrect[0m
+Elapsed speed (Sequent CPU) = 0.10 MPx/s
+Elapsed speed (Parallel GPU pure) = 28.29 MPx/s
+Elapsed speed (Parallel GPU) = 28.10 MPx/s
+Pure acceleration: 274.91
+Acceleration: 273.05
+no error
+
+
+PS:
+
+Read file <error> for stderr output of this job.
+
